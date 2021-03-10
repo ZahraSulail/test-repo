@@ -1,0 +1,312 @@
+ @charset "UTF-8";
+
+* { margin: 0;
+    padding: 0;
+    font-family:Century Gothic;
+
+ }
+
+
+
+ header {
+    background-image:url(../images/mon.jpg); 
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+ul {float:right;
+    margin: 25px;
+    }
+
+ul li {display: inline-block;
+   
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding:  5px 20px;
+    /*border: 1px solid; */
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+background-color: grey;
+    color: white;
+}
+
+ul li.active a {
+    background-color: grey;
+    color: white;
+}
+
+.logo img {
+    float: left;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.title {
+    position: absolute;
+    top:40%;
+    left:25%;
+    width: 800px;
+}
+
+.title h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.button {
+position: absolute;
+top: 58%;
+left:40%;
+}
+
+.btn {
+
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.services {
+
+        
+        text-align: center;
+        background-color: #F5F5F5;
+       
+    }
+
+   
+    .services h1 {
+
+        color: black;
+         margin-top: 30px;
+         text-transform: uppercase;
+         display: inline-block;
+         margin: 0 -2;
+         border-bottom: 3px solid #3498DB;
+         font-size: 20px;
+         padding-bottom: : 5px;
+ }
+
+    .service {
+
+    display: inline-block;
+    width: 30%;
+    margin:0 -2px;
+    padding:20px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+     
+    }
+
+    .service i {
+
+        font-size: 30px;
+        margin-bottom: 20px;
+        border: 3px solid black;
+        border-radius: 20%;
+        padding: 10px;
+        color: #3498DB;
+        border-color: #3498DB;
+    }
+
+   .service  h2 {
+
+    font-weight: 500;
+   } 
+
+   .service p {
+    font-weight: 300;
+    margin-bottom: 5px;
+   }
+
+
+.service:hover  {
+    background-color: #DCDCDC;
+    color:black;
+
+}
+
+.iframes{
+position: absolute;
+top: 1150px;
+left: 750px;
+float: right;
+margin-top: 90px;
+margin-right: 100px
+}
+.iframe_text{
+width: 80%;
+
+margin-left: 15px;
+}
+.main_iframe h3{
+text-transform: uppercase;
+display: inline-block;
+width: 150px;
+margin-left: 30px;
+margin-bottom: 5px;
+
+
+}
+
+.main_iframe {
+    margin-top: 10px;
+    
+    width: 500px;
+
+}
+
+.iframe_text p {
+    margin-left: 30px;
+
+}
+
+.contact-section{
+background-color: #f1f1f1;
+padding: 20px;
+border-radius: 5px;
+margin-top:30px;
+
+
+}
+
+.contact-section h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+     margin-top: 10px;
+}
+
+.border{
+    width: 100px;
+    height: 5px;
+
+    background-color:#3498DB;
+    margin: 10px auto;
+
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  max-width: 400px;
+   margin: auto;
+   margin-top: 5px;
+
+}
+
+input[type=submit] {
+  width: 10%;
+  color: white;
+  padding: 8px 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #3498DB;
+  text-transform: uppercase;;
+  font-size: 20px;
+  border: 2px solid #3498DB;
+  transition: 0.6s;
+  background-color: #3498DB;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 3px #3498DB;
+}
+
+input[type=submit]:hover{
+background:#3498DB;
+color:white;
+
+}
+
+
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+.footer{
+  background-color: #000000;
+  padding:70px 0;
+}
+
+.footer-col{
+  width: 15%;
+  padding: 0 15px;
+  margin-right: 13px;
+}
+
+.footer-col ul li a{
+  display: block;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+}
+
+.footer-col h4
+{
+  font-size: 18px;
+  color:#ffffff;
+  text-transform:uppercase;
+  margin-left: 20px;
+  font-weight: 500;
+  border-bottom:2px solid red;
+}
+
+.footer-col ul{
+  padding:10px 10px;
+}
+
+
+.footer-col .social-handle a{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  color: white;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 20px;
+  
+}
+.footer-col .social-handle a:hover{
+  color: #3498DB;
+}
+
+.footer-col h4{
+  display: inline-block;
+  border-bottom:2px solid #3498DB;
+  padding-bottom: 5px;
+  border-width: 2px;
+  box-sizing: border-box;
+}
